@@ -18,6 +18,8 @@ builder.Services.AddMarten(opts =>
 
 builder.Services.AddCarter();
 
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+
 var app = builder.Build();
 
 // HTTP Pipeline
