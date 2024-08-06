@@ -7,9 +7,13 @@
     <UserSecretsId>e72025c3-dd14-45a9-9990-1c379b64e2aa</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.Redis" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
     <PackageReference Include="Carter" Version="8.2.1" />
     <PackageReference Include="Marten" Version="7.26.1" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.7" />
