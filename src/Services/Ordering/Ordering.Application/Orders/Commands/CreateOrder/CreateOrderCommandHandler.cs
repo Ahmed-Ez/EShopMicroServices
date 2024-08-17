@@ -1,5 +1,4 @@
-﻿
-namespace Ordering.Application.Orders.Commands
+﻿namespace Ordering.Application.Orders.Commands.NewFolder
 {
     public class CreateOrderHandler(IApplicationDbContext dbContext)
     : ICommandHandler<CreateOrderCommand, CreateOrderResult>

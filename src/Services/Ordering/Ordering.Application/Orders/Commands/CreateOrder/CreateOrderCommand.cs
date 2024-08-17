@@ -1,5 +1,4 @@
-﻿
-namespace Ordering.Application.Orders.Commands
+﻿namespace Ordering.Application.Orders.Commands.NewFolder
 {
     public record CreateOrderCommand(OrderDto Order)
     : ICommand<CreateOrderResult>;
